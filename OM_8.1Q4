@@ -1,0 +1,50 @@
+//Q4,
+#include<stdio.h>
+#include<conio.h>
+
+ void   main  (){
+int marks [999];
+   int o,m;
+
+   clrscr();
+
+   printf("enter the total student:- ");
+   scanf("%d",&o);
+
+   for(m=0;m<o;m++){
+   printf("enter the marks of studant :-");
+   scanf("%d",&marks [m]);
+   }
+   for(m=0;m<o;m++)
+   {
+   if( marks[m]>90)
+   {
+   printf("marks:-%d A1/n",marks[m]);
+   }
+   else if(marks[m]>80)
+   {
+   printf("marks:-%d A\n",marks[m]);
+   }else if(marks[m]>70)
+   {
+   printf("marks:-%d B1\n",marks[m]);
+   }else if(marks[m]>60)
+   {
+   printf("marks:-%d B\n",marks[m]);
+   }else if(marks[m]>50)
+   {
+   printf("marks:-%d C1\n",marks[m]);
+   }else if(marks[m]>40)
+   {
+   printf("marks:-%d C\n",marks[m]);
+   }else if(marks[m]>33)
+   {
+   printf("marks:-%d D\n",marks[m]);
+   }else
+   {
+   printf("marks:-%d fail\n",marks[m]);
+   }
+   }
+
+
+
+   getch();}

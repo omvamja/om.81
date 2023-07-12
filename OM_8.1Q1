@@ -1,0 +1,26 @@
+//Q1,
+
+#include<stdio.h>
+#include<conio.h>
+ void main  (){
+ int i,n,b=1;
+ int t[100] ;
+  clrscr();
+ printf("enter array size =");
+ scanf("%d",&n);
+
+//int t [n];
+
+ for (i=0;i<n;i++)
+ {
+
+ printf("n[%d]=",i);
+ scanf ("%d",&t[n]);
+ b++;
+
+ }
+
+ printf("length of array is  %d",b-1);
+
+
+ getch();}

@@ -1,0 +1,19 @@
+//Q2,
+#include<stdio.h>
+#include<conio.h>
+ void main (){
+ int i,n,sum=0;
+ int count[100];
+ clrscr();
+ printf ("enter array size =");
+ scanf ("%d",&n);
+// int count [100];
+
+ for(i=0;i<n;i++)
+ {
+ printf("n[%d]=",i);
+ scanf("%d",&count[n]);
+ sum=sum+count[n];
+}
+printf("the average value is %d",sum/n);
+getch();}

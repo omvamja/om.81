@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main(){
+
+ int i,n;
+int a[1000];
+ printf("enter array size =");
+ scanf("%d",&n);
+// int a[1000];
+
+
+ printf("enter a elemets \n");
+ for(i=0;i<n;i++){
+ printf("A[%d]=",i);
+ scanf("%d",&a[i]);
+ }
+
+ int b[1000];
+ printf("enter belemets\n");
+
+for (i=0;i<n;i++)
+{
+printf("B[%d]=",i);
+scanf("%d",&b[i]);
+}
+int c[1000];
+for(i=0;i<n;i++)
+{
+c[i]=a[i]+b[i];
+}
+for(i=0;i<n;i++)
+{
+printf("array c is c[%d]=%d\n",i,c[i]);
+}
+getch();}
